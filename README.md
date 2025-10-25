@@ -98,12 +98,6 @@ CricbuzzApp/
 **Frontend:** HTML, CSS, JavaScript
 
 **Hosting:** GitHub Pages
-
----
-
-## 📸 Screenshots
-(Optional: Add screenshots of the pages here if you want to impress teachers)
-
 ---
 
 ## 💡 Future Improvements
