@@ -8,7 +8,7 @@ This project is a demo application for showcasing cricket matches, teams, and pl
 ## 🔗 Live Frontend Demo
 
 Check out the live frontend UI hosted on GitHub Pages:  
-[https://deepnar.github.io/CricbuzzApp/signup.html](https://deepnar.github.io/CricbuzzApp/signup.html)
+[https://deepnar.github.io/CricbuzzApp/index.html](https://deepnar.github.io/CricbuzzApp/index.html)
 
 ---
 
