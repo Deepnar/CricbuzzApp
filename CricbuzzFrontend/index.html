@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricbuzz - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Cricbuzz</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="teams.html">Teams</a>
+            <a href="match.html">Match</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="hero">
+            <h2>Welcome to Cricbuzz Clone</h2>
+            <p>Check scores, view teams, and see live match updates — all in one place!</p>
+            <button id="showMatchBtn">Show Random Match</button>
+            <div id="matchResult" class="hidden">
+                <h3 id="matchTitle"></h3>
+                <p id="matchScore"></p>
+                <p id="matchWinner"></p>
+            </div>
+        </div>
+
+        <!-- Teams Section -->
+        <h3>Featured Teams</h3>
+        <div class="teams-container">
+            <div class="team-card">
+                <h3>Mumbai Indians</h3>
+                <p>Captain: Rohit Sharma | Vice: Hardik Pandya</p>
+                <ul>
+                    <li>Ishan Kishan</li>
+                    <li>Jasprit Bumrah</li>
+                    <li>Kieron Pollard</li>
+                </ul>
+            </div>
+            <div class="team-card">
+                <h3>Chennai Super Kings</h3>
+                <p>Captain: MS Dhoni | Vice: Ravindra Jadeja</p>
+                <ul>
+                    <li>Ruturaj Gaikwad</li>
+                    <li>Deepak Chahar</li>
+                    <li>Moeen Ali</li>
+                </ul>
+            </div>
+            <div class="team-card">
+                <h3>Royal Challengers Bangalore</h3>
+                <p>Captain: Faf du Plessis | Vice: Glenn Maxwell</p>
+                <ul>
+                    <li>Virat Kohli</li>
+                    <li>Glenn Maxwell</li>
+                    <li>Wanindu Hasaranga</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Highlights Section -->
+        <div class="highlights">
+            <h3>Latest Highlights</h3>
+            <ul>
+                <li>Rohit Sharma hits 120 runs in T20 match!</li>
+                <li>MS Dhoni scores winning six!</li>
+                <li>Pollard shines with both bat and ball.</li>
+                <li>Jasprit Bumrah takes 4 wickets in last over.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Cricbuzz Clone. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

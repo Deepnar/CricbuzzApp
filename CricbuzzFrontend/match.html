@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricbuzz - Match</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Cricbuzz</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="teams.html">Teams</a>
+            <a href="match.html">Match</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Live Match Dashboard</h2>
+
+        <div class="match-card">
+            <h3>Live Scoreboard</h3>
+            <p>Mumbai Indians: 180/7</p>
+            <p>Chennai Super Kings: 175/8</p>
+            <p>Overs: 20 | Status: Completed</p>
+        </div>
+
+        <div class="match-buttons">
+            <button class="tab-btn active" data-tab="scoreTab">Scorecard</button>
+            <button class="tab-btn" data-tab="commentaryTab">Commentary</button>
+            <button class="tab-btn" data-tab="statsTab">Player Stats</button>
+        </div>
+
+        <div id="scoreTab" class="tab-content">
+            <p>Scorecard content placeholder. Add runs, wickets, overs.</p>
+        </div>
+
+        <div id="commentaryTab" class="tab-content hidden">
+            <div id="commentaryBox">
+                <p>Rohit Sharma hits a six!</p>
+                <p>Bumrah bowls a perfect yorker!</p>
+                <p>Dhoni finishes it off!</p>
+            </div>
+            <button class"tab-btn" id="addCommentBtn">Add Commentary</button>
+        </div>
+
+        <div id="statsTab" class="tab-content hidden">
+            <table>
+                <tr>
+                    <th>Player</th>
+                    <th>Role</th>
+                    <th>Runs</th>
+                    <th>Wickets</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Ishan Kishan</td>
+                    <td>Batsman</td>
+                    <td>80</td>
+                    <td>7</td>
+                    <td>7.8</td>
+                </tr>
+                <tr>
+                    <td>Jasprit Bumrah</td>
+                    <td>Bowler</td>
+                    <td>70</td>
+                    <td>6</td>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <td>Kieron Pollard</td>
+                    <td>All-Rounder</td>
+                    <td>56</td>
+                    <td>5</td>
+                    <td>7.0</td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        &copy; 2025 Cricbuzz Clone. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
