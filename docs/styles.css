@@ -261,27 +261,26 @@ th {
     background: #ffb400;
 }
 
-/* Signup logo container */
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* aligns left */
-    gap: 15px;
-    /* space between logo and text */
-    margin-bottom: 30px;
-    margin-left: 280px;
-    /* space below logo */
+    /* left align */
+    gap: 2vw;
+    /* space between logo and text relative to viewport */
+    margin-bottom: 2vh;
+    /* responsive spacing */
+    margin-left: 17vw;
+    /* adjust left spacing relative to viewport */
 }
 
 /* Logo image */
 .logo {
-    width: 300px;
-    /* adjust size as needed */
-    height: 300px;
-    /* adjust size as needed */
+    width: 20vw;
+    /* relative to viewport width */
+    height: auto;
+    /* maintain aspect ratio */
 }
-
 
 
 /* ---------------- Team Card Hover ---------------- */
